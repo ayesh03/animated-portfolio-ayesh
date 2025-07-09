@@ -120,7 +120,7 @@ const AnimatedJourneyPage = () => {
   const handleResumeDownload = () => {
     setClicked(true);
     const link = document.createElement('a');
-    link.href = '/assets/ayesh_resume.pdf';
+    link.href = '/ayesh_resume.pdf';
     link.download = 'Ayesh_Resume.pdf';
     link.click();
     setTimeout(() => setClicked(false), 2000);
